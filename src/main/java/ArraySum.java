@@ -9,8 +9,7 @@ public class ArraySum {
     public int sum(int[] arr){
         int sum = 0;
         for (int i : arr){
-            sum += i;
-            System.out.println(sum);}
+            sum += i;}
             return sum;
     }
 }
